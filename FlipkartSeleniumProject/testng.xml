@@ -1,0 +1,1 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"><suite name="Suite"><test name="T"><classes><class name="com.flipkart.tests.LaunchFlipkart"/></classes></test></suite>
