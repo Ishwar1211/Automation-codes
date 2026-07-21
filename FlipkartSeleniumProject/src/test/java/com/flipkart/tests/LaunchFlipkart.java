@@ -19,7 +19,7 @@ public class LaunchFlipkart {
 	@Test
 	public void openFlipkart() {
 		driver.get("https://saviantwebforms-saviantwebforms-stg.azurewebsites.net/");
-		System.out.println(driver.getTitle());
+		System.out.println("Page title "+ driver.getTitle());
 		Assert.assertTrue(driver.getTitle().contains("Online Shopping"));
 	}
 
